@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: blue;
+}
+section{
+    width: 22%;
+    margin: 10% auto 0;
+    background-color: #000;
+    padding-left: 23px;
+    padding-top: 24px;
+    border-radius: 8px;
+    padding-bottom: 16px;
+
+}
+div >button,section >button{
+    display: block;
+    width: 4em;
+    padding: 18px;
+    border-radius: 50%;
+    margin: 0 14px 12px 0;
+    border: none;
+    cursor: pointer;
+}
+section p{
+    text-align: end;
+    padding-right: 35px;
+    margin-bottom: 15px;
+    font-size: xxx-large;
+    color: #fff;
+    height: 40px;
+}
+.wrap{
+    display: flex;
+    padding-top: 15px;
+}
+
+.firstLine button:first-of-type,.secondLine button:first-of-type,.thirdLine button:first-of-type{
+    background-color:#D3D3D3;
+}
+.firstLine button,.secondLine button,.thirdLine button,section >button{
+    background-color: #808080;
+    color: #fff;
+}
+.fourthLine button,section a{
+    background-color: #ff8000;
+    color: #fff;
+}
+section a{
+    padding: 19px 23px;
+    margin-left: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+section >button{
+    display: inline;
+}
+section >button:first-of-type{
+    padding-right: 93px;
+    border-radius: 30px;
+}
+@media((min-width:300px) and (max-width:780px)){
+    section{
+        width: fit-content;
+    }
+} 
